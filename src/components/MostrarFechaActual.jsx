@@ -6,7 +6,7 @@ export const MostrarFechaActual = () => {
 
 
   const mostrarFecha = () => {
-    const fechaActual = new Date();
+    const fechaActual = new Date().toLocaleString();
     setFecha(fechaActual);
 
   }
